@@ -1,0 +1,83 @@
+html {
+    background-color: #ECEBE4;
+    color: #915637;
+}
+
+header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* min-height: 400px; */
+    justify-content: space-between;
+    background-color: #EBE9E9;
+    /* flex-wrap:wrap-reverse; */
+}
+
+img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    width: 500px;
+    align-content: flex-end;
+}
+
+.menu>.item {
+    margin: 4px;
+    line-height: 50px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #E7D7C1;
+    /* border: 1px black solid; */
+    text-decoration: none;
+    color: #915637;
+}
+
+.wrap {
+    /* margin: 0 auto;
+    height: 400px;
+    width: 800px; */
+}
+
+aside {
+    /* border: 1px black solid; */
+    /* width: 800px; */
+    height: 300px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://cdn.pixabay.com/photo/2017/05/30/22/24/coffee-2358388_960_720.jpg');
+}
+
+.container {
+    padding: 20px 100px 42px 100px;
+    column-count: 4;
+    column-gap: 0;
+}
+
+.items {
+    box-sizing: border-box;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    padding: 10px 6px;
+}
+
+.box {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: justify;
+    padding: 10px;
+    border: 1px #ccc solid;
+}
+
+footer {
+    height: 100px;
+    font-size: 12px;
+    line-height: 100px;
+    text-align: center;
+    /* background-color: #EBE9E9; */
+}
