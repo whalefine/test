@@ -60,7 +60,7 @@ aside {
     box-sizing: border-box;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
-    break-inside: avoid;
+    break-inside: avoid; 
     padding: 10px 6px;
 }
 
