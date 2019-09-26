@@ -50,7 +50,7 @@ aside {
     background-image: url('https://cdn.pixabay.com/photo/2017/05/30/22/24/coffee-2358388_960_720.jpg');
 }
 
-.container {
+/* .container {
     padding: 20px 100px 42px 100px;
     column-count: 4;
     column-gap: 0;
@@ -68,9 +68,28 @@ aside {
     /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center; * /
     text-align: justify;
     padding: 10px;
+    border: 1px #ccc solid;
+} */
+
+.container{
+    margin:20px auto 50px auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    
+}
+.box{
+    padding:10px;
     border: 1px #ccc solid;
 }
 
